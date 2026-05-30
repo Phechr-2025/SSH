@@ -10,7 +10,7 @@ Installs, configures, and starts all services in a single command — no manual 
 Run as **root** on your VPS:
 
 ```bash
-apt-get update -y && apt-get install -y git && git clone https://github.com/YOUR_USERNAME/vpnserver.git /etc/vpnserver-src && chmod +x /etc/vpnserver-src/install.sh && bash /etc/vpnserver-src/install.sh
+apt-get update -y && apt-get install -y git && git clone https://github.com/Phechr-2025/vpnserver.git /etc/vpnserver-src && chmod +x /etc/vpnserver-src/install.sh && bash /etc/vpnserver-src/install.sh
 ```
 
 > **Tip:** Make sure you are already logged in as `root` before running. If not, run `sudo su -` first.
